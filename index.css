@@ -1,0 +1,33 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #292929 !important;
+}
+.in-section, .side-box, .sider-box, .intro{
+    background: #333333 !important;
+}
+.text-container{
+    height: fit-content !important;
+}
+.foot{
+    background-color: #000000;
+}
+
+@media screen and (min-width: 992px) {
+
+    .side-box{
+        height: 51vh;
+    }
+
+    .advertisement{
+        height: 105vh !important;
+    }
+
+    .sider-box{
+        height: 40%;
+    }
+}
